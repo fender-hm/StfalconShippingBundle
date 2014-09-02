@@ -11,8 +11,24 @@
             "email":    "ceo@stfalcon.com"
         },
         {
-            "name":     "Andrey Shkodyak",
+            "name":     "Andriy Shkodyak",
             "email":    "andriy.shkodyak@stfalcon.com"
+        },
+        {
+            "name":     "Valeriy Rabievskyi",
+            "email":    ""
+        },
+        {
+            "name":     "Artem Genvald",
+            "email":    ""
+        },
+        {
+            "name":     "Olexander Karatayev",
+            "email":    ""
+        },
+        {
+            "name":     "Olexander Lenskyi",
+            "email":    ""
         },
         {
             "name":     "Symfony Community",

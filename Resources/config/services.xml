@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="stfalcon_shipping.shipping_calculator.nova_poshta.class">Stfalcon\Bundle\ShippingBundle\Shipping\NovaPoshtaCalculator</parameter>
+        <parameter key="stfalcon_shipping.form.type.shipping_calculator.nova_poshta.class">Stfalcon\Bundle\ShippingBundle\Form\Type\NovaPoshtaConfigurationType</parameter>
+    </parameters>
+
+    <services>
+        <service id="stfalcon_shipping.shipping_calculator.nova_poshta" class="%stfalcon_shipping.shipping_calculator.nova_poshta.class%">
+            <tag name="sylius.shipping_calculator" calculator="nova_poshta" label="stfalcon_shipping.nova_poshta.title" />
+        </service>
+        <service id="stfalcon_shipping.form.type.shipping_calculator.nova_poshta" class="%stfalcon_shipping.form.type.shipping_calculator.nova_poshta.class%">
+            <tag name="form.type" alias="stfalcon_shipping_calculator_nova_poshta" />
+        </service>
+    </services>
+</container>
