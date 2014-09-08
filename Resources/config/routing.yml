@@ -1,0 +1,3 @@
+#stfalcon_nova_poshta_index:
+#    path: /
+#    defaults: { _controller: StfalconShippingBundle:Default:index }

@@ -1,0 +1,45 @@
+{
+    "name": "stfalcon/shipping-bundle",
+    "description": "This bundle integrates some ukrainian shipping providers into the Sylius",
+    "keywords": ["sylius","shipping"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Stepan Tanasiychuk",
+            "homepage": "http://blog.stfalcon.com",
+            "email":    "ceo@stfalcon.com"
+        },
+        {
+            "name":     "Andriy Shkodyak",
+            "email":    "andriy.shkodyak@stfalcon.com"
+        },
+        {
+            "name":     "Valeriy Rabievskyi",
+            "email":    ""
+        },
+        {
+            "name":     "Artem Genvald",
+            "email":    ""
+        },
+        {
+            "name":     "Olexander Karatayev",
+            "email":    ""
+        },
+        {
+            "name":     "Olexander Lenskyi",
+            "email":    ""
+        }
+
+    ],
+    "require": {
+        "php":             ">=5.3.0",
+        "symfony/symfony": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Stfalcon\\Bundle\\ShippingBundle": ""
+        }
+    },
+    "target-dir" : "Stfalcon/Bundle/ShippingBundle"
+}
